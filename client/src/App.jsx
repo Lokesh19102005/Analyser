@@ -17,7 +17,8 @@ function App() {
     setData(null);
 
     try {
-      const response = await axios.post('http://localhost:5001/api/analyze', { profileUrl });
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+      const response = await axios.post(`${apiUrl}/api/analyze`, { profileUrl });
       setData(response.data);
     } catch (err) {
       setError(err.response?.data?.error || 'Failed to analyze profile. Please check the URL and try again.');

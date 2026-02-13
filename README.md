@@ -1,5 +1,8 @@
 # GitHub Portfolio Analyzer & Enhancer
 
+## 🎥 Demo Video
+https://drive.google.com/file/d/17AJ_RXjG-4kx7At_6EUunrhztTguCVdL/view?usp=sharing
+
 A full-stack application that analyzes GitHub profiles using the GitHub REST API and provides a comprehensive portfolio score, breakdown, and actionable suggestions to improve your developer presence.
 
 ## Features
@@ -52,6 +55,26 @@ A full-stack application that analyzes GitHub profiles using the GitHub REST API
    - Open browser at `http://localhost:5173`
    - Enter a GitHub profile URL (e.g., `https://github.com/torvalds`)
    - Click "Analyze Profile"
+
+## Deployment
+
+The project is configured for deployment on platforms like Vercel (Frontend) and Render/Railway (Backend).
+
+### 1. Backend Deployment (Render/Railway)
+- **Repo Config**: Point to the `server` directory.
+- **Build Command**: `npm install`
+- **Start Command**: `npm start`
+- **Environment Variables**:
+    - `GITHUB_TOKEN`: Your GitHub Personal Access Token.
+    - `CORS_ORIGIN`: The URL of your deployed frontend (e.g., `https://your-app.vercel.app`).
+    - `PORT`: Automatically handled by the platform.
+
+### 2. Frontend Deployment (Vercel/Netlify)
+- **Repo Config**: Point to the `client` directory.
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Environment Variables**:
+    - `VITE_API_URL`: The URL of your deployed backend (e.g., `https://your-api.onrender.com`).
 
 ## How Scoring Works
 
