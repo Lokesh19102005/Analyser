@@ -13,7 +13,7 @@ A full-stack application that analyzes GitHub profiles using the GitHub REST API
   - Code Structure & Best Practices
   - Activity Consistency
   - Repository Organization
-  - Project Impact
+  - Project Impact & Real-World Relevance
   - Technical Depth
 - **Actionable Insights**: Concrete suggestions to improve your score.
 - **Repository Highlights**: Analysis of top projects.
