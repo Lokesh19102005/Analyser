@@ -1,5 +1,8 @@
 # GitHub Portfolio Analyzer & Enhancer
 
+## 🎥 Demo Video
+https://drive.google.com/file/d/17AJ_RXjG-4kx7At_6EUunrhztTguCVdL/view?usp=sharing
+
 A full-stack application that analyzes GitHub profiles using the GitHub REST API and provides a comprehensive portfolio score, breakdown, and actionable suggestions to improve your developer presence.
 
 ## Features
@@ -10,7 +13,7 @@ A full-stack application that analyzes GitHub profiles using the GitHub REST API
   - Code Structure & Best Practices
   - Activity Consistency
   - Repository Organization
-  - Project Impact
+  - Project Impact & Real-World Relevance
   - Technical Depth
 - **Actionable Insights**: Concrete suggestions to improve your score.
 - **Repository Highlights**: Analysis of top projects.
